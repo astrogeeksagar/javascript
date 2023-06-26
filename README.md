@@ -16,7 +16,7 @@ LeetCode is a popular online platform that offers a vast collection of coding in
 
 ## Problem List
 
-- [Problem 1](./Create Hello World Function): Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+- [Problem 1](./create-hello-world-function): Write a function createHelloWorld. It should return a new function that always returns "Hello World".
   ...
 
 Add more problem sections as needed.
