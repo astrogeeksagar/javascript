@@ -1,0 +1,20 @@
+//Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc)
+
+<script>
+    function createCounter(n) {
+        let count = n;
+
+        return function () {
+            const currentCount = count;
+            count++;
+            return currentCount;
+        };
+    }
+
+    const counterFunc = createCounter(5);
+
+    console.log(counterFunc());
+    console.log(counterFunc());
+    console.log(counterFunc());
+
+</script>
