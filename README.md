@@ -16,7 +16,8 @@ LeetCode is a popular online platform that offers a vast collection of coding in
 
 ## Problem List
 
-- [Problem 1](./Create%20Hello%20World%20Function): Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+- [Problem 1](./Create%20Hello%20World%20Function.html): Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+- - [Problem 2](./Counter.html): Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc)
   ...
 
 Add more problem sections as needed.
