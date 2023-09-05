@@ -19,7 +19,7 @@ LeetCode is a popular online platform that offers a vast collection of coding in
 - [Problem 1](./Create%20Hello%20World%20Function.html): Write a function createHelloWorld. It should return a new function that always returns "Hello World".
 - [Problem 2](./Counter.html): Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc)
 - [Problem 3](./tobeornottobe.html): Write a function expect that helps developers test their code. It should take in any value val and return an object with the following two functions.
-- [Problem 4](./FIlter%Elements%from%Array.js): Given an integer array arr and a filtering function fn, return a filtered array filteredArr.The fn function takes one or two arguments:
+- [Problem 4](./Filter%20Elements%20from%20Array.js): Given an integer array arr and a filtering function fn, return a filtered array filteredArr.The fn function takes one or two arguments:
 arr[i] - number from the arr
 i - index of arr[i]
 filteredArr should only contain the elements from the arr for which the expression fn(arr[i], i) evaluates to a truthy value. A truthy value is a value where Boolean(value) returns true.
