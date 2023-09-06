@@ -28,7 +28,7 @@ Please solve it without the built-in Array.filter method.
 toBe(val) accepts another value and returns true if the two values === each other. If they are not equal, it should throw an error "Not Equal".
 notToBe(val) accepts another value and returns true if the two values !== each other. If they are equal, it should throw an error "Equal".
   ...
-- [Problem ](./Return_Length_of_Arguments_Passed.js): Write a function argumentsLength that returns the count of arguments passed to it.
+- [Problem 5](./Return_Length_of_Arguments_Passed.js): Write a function argumentsLength that returns the count of arguments passed to it.
 Add more problem sections as needed.
 
 ## Usage
