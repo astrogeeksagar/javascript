@@ -31,8 +31,8 @@ notToBe(val) accepts another value and returns true if the two values !== each o
 - [Problem 5](./Return_Length_of_Arguments_Passed.js): Write a function argumentsLength that returns the count of arguments passed to it.
 Add more problem sections as needed.
 - [Problem 6](./Array_Reduce_Transformation.js): Given an integer array nums, a reducer function fn, and an initial value init, return a reduced array.A reduced array is created by applying the following operation: val = fn(init, nums[0]), val = fn(val, nums[1]), val = fn(val, nums[2]), ... until every element in the array has been processed. The final value of val is returned. If the length of the array is 0, it should return init.Please solve it without using the built-in Array.reduce method.
--  [Problem 7](./Allow_One_Function_Call.js): Given a function fn, return a new function that is identical to the original function except that it ensures fn is called at most once.The first time the returned function is called, it should return the same result as fn.
-Every subsequent time it is called, it should return undefined.
+-  [Problem 7](./Allow_One_Function_Call.js): Given a function fn, return a new function that is identical to the original function except that it ensures fn is called at most once.The first time the returned function is called, it should return the same result as fn.Every subsequent time it is called, it should return undefined.
+- [Problem 8](./memorize.js): Given a function fn, return a memoized version of that function.A memoized function is a function that will never be called twice with the same inputs. Instead it will return a cached value. You can assume there are 3 possible input functions: sum, fib, and factorial.sum accepts two integers a and b and returns a + b.fib acceptsasingle integer n and returns 1 if n <= 1 or fib(n - 1) + fib(n - 2) otherwise.factorial accepts a single integer n and returns 1 if n <= 1 or factorial(n - 1) * n otherwise.
 
 ## Usage
 
