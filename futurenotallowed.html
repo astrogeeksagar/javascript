@@ -1,0 +1,21 @@
+<label for="dateInput">Select a date:</label>
+<input onchange="FutureDtNA(this)" type="date" id="dateInput">
+<button>Submit</button>
+// @astrogeeksagar
+<script>
+    function FutureDtNA(dateInput) {
+        var inputDate = new Date(dateInput.value);
+        var currentDate = new Date();
+        var errorText = document.createElement("p");
+        var errorTextNode = document.createTextNode("Please select a date in the past or today.");
+        if (inputDate > currentDate) {
+            errorText.style.color = "red";
+            errorText.appendChild(errorTextNode);
+            dateInput.value = "";
+            document.body.appendChild(errorText);
+            setTimeout(function() {
+                errorText.remove();
+            }, 5000);
+        }
+    }
+</script>
